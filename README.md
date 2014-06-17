@@ -1,15 +1,8 @@
-# Tidy Data Set (run_analysis.R)
+# README
 =============================================================================
-The goal of this script is to prepare tidy data that can be used for later analysis.
+This repository contains a script for producing a tidy data set from an input source (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
-## Data
-Data is obtained from 
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
-where you can also find a detailed description of the data set.
-
-## Script Functionalities
- 1. Merges the training and the test sets to create one data set.
- 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
- 3. Uses descriptive activity names to name the activities in the data set
- 4. Appropriately labels the data set with descriptive variable names. 
- 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+##Files
+- run_analysis.R: script producing a tidy data set
+- CodeBook.m : a code book that describes the variables, the data, and any transformations or work that was performed to clean up the data
+- Tidy_Data_Set.txt: Tidy data set produced by the run_analysis.R script
