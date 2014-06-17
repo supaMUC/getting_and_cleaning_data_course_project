@@ -6,3 +6,6 @@ This repository contains a script for producing a tidy data set from an input so
 - run_analysis.R: script producing a tidy data set
 - CodeBook.m : a code book that describes the variables, the data, and any transformations or work that was performed to clean up the data
 - Tidy_Data_Set.txt: Tidy data set produced by the run_analysis.R script
+
+##Script Details
+The script takes various files obtained from the data source as an input, transforms the data and outputs a tidy data set only containing the desired columns and information.
