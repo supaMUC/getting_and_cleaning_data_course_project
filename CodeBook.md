@@ -33,7 +33,7 @@ where you can also find a detailed description of the data set.
  3. Uses descriptive activity names to name the activities in the data set
  4. Appropriately labels the data set with descriptive variable names. 
  5.   Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
- ### In Detail
+### In Detail
  - Line 10 - 19: Read necessary data files
  - Line 21 - 25: Merge datasets
  - Line 28 - 29: Calculate vector indicating features that measure mean() or std()
